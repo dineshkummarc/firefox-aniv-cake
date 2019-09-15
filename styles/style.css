@@ -1,11 +1,10 @@
-body{
+/*body{
     margin:0;
     overflow:hidden;
     background-color:#4187d7;
-}
+}*/
 
 #canvas{
-    width:50%; 
 }
 
 #join{
