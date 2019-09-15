@@ -34,12 +34,12 @@ function gif(){
         draw();
     }else{
         context.drawImage(senza,(width-200)/2,70, 200, 180);
-        context.font = 'bold 20pt Calibri';
+        context.font = 'bold 5pt Calibri';
         context.fillStyle = 'white';
         hp=context.measureText('Happy Firefox 10th').width;
         fx=context.measureText('Independence Year!').width;
         context.fillText('Happy Firefox 10th',(width-hp)/2,30);
-        context.font = 'bold 20pt Calibri';
+        context.font = 'bold 5pt Calibri';
         context.fillStyle = 'white';
         context.fillText('Independence Year!',(width-fx)/2, 60);
     }
@@ -58,7 +58,7 @@ function draw(){
 
 function hint(){
     if(count<15){
-        context.font = 'bold 20px Calibri';
+        context.font = 'bold 5px Calibri';
         lenght=context.measureText('Blow into your microphone!').width;
         console.log(lenght);
         context.fillStyle = 'white';
