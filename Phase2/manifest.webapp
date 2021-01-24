@@ -1,0 +1,20 @@
+{
+    "name": "Firefox 10",
+    "description": "blow out candles",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "developer": {
+        "name": "nicokant",
+        "url": "http://nicokant.altervista.org"
+    },
+    "launch_path": "/index.html",
+    "permissions": {
+        "audio-capture": {
+            "description": "Required to blow into your microphone"
+        }
+    },
+    "icons": {
+        "128": "src/icon128.png"
+     },
+    "default_locale": "en"
+}

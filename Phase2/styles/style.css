@@ -1,0 +1,30 @@
+
+#canvas{
+}
+
+#join{
+    margin:auto;
+    border:1px solid #4b77be;
+    border-radius:30px;
+    width:200px;
+    height:30px;
+    background-color:#3a539b;
+}
+
+#join a{
+    margin-top:5px; 
+    display:block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color:#fff;
+}
+
+#join a:visited,#join a:hover{
+    color:#fff;
+    margin-top:5px; 
+    display:block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
